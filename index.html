@@ -1,10 +1,131 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title> My Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Janarthanan | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #007acc;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      background: #222;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #007acc;
+      margin-bottom: 20px;
+    }
+    .projects .project {
+      border: 1px solid #ddd;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      background: #fff;
+    }
+    .contact a {
+      color: #007acc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #007acc;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
 </head>
 <body>
-<h1>Hi, Hello I'm Jana!</h1>
-<p>This is my portfolio</p>
+
+  <header>
+    <h1>Janarthanan M</h1>
+    <p>Aspiring Full Stack Developer | Passionate Coder | Lifelong Learner</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Janarthanan, an aspiring full-stack developer who loves building web applications and learning new technologies. I enjoy solving problems and turning ideas into real, working projects. I specialize in Java, Python, HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>💡 Handwritten Digit Recognition</h3>
+      <p>A deep learning web app using CNN to classify digits drawn by users. Frontend in React, backend with Flask.</p>
+      <a href="https://brilliant-nougat-7efe2f.netlify.app" target="_blank">View Demo</a>
+    </div>
+
+    <div class="project">
+      <h3>📝 Expense Tracker App</h3>
+      <p>Built in Flutter, this app helps users track daily expenses, categorize them, and view analytics charts.</p>
+      <a href="https://github.com/Janarthanan-Mathesh" target="_blank">GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>🌤️ Weather Forecast App</h3>
+      <p>A real-time weather app using OpenWeatherMap API and Flutter. It shows current weather, humidity, and icons.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:janarthananjanarthanan11@example.com">janarthanan@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/Janarthanan-Mathesh" target="_blank">github.com/Janarthanan-Mathesh</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/janarthanan" target="_blank">linkedin.com/in/janarthanan</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Janarthanan M. All Rights Reserved.</p>
+  </footer>
+
 </body>
 </html>
